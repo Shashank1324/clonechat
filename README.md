@@ -1,51 +1,86 @@
-# Clonechat
+<h1 align="left">
+    <a target="_blank">
+        Clonebot
+        <img src="http://www.randomnoun.com/wpf/shell32-avi/tshell32_160.gif" width="272" height="60">
+    </a>
+</h1>
 
-Clone all posts from the history of a Telegram Channel/Group to another Channel/Group.
+#### A Telegram robot can clone medias from any chat to your own chat.<br>
+`Read the documentation to know how to use the bot`
+<br>
+<br>
+        
+<p align="center">
+    <a href="https://www.python.org">
+        <img src="https://img.shields.io/badge/PYTHON-PROJECT-blueviolet?style=for-the-badge&logo=python">
+    </a><br>
+    <a href="https://github.com/m4mallu/clonebot/stargazers">
+        <img src="https://img.shields.io/github/stars/m4mallu/clonebot?style=social">
+    </a>
+    <a href="https://github.com/m4mallu/clonebot/fork">
+        <img src="https://img.shields.io/github/forks/m4mallu/clonebot?label=Fork&style=social">
+    </a>  
+</p>
 
-Secure backup. Saves and protects the posts in the destination chat from possible deletion of posts from the source chat.
+<details>
+  <summary><b>Deploy</b></summary>
+    <p align="left">
+        For any <b>Code vioate error</b> shown by heroku, fork the repo first, change the deploy button URL to your fork URL, change the <b>Repository</b> URL 
+        in app.json to your fork URL.<br><br>
+      <a href="https://heroku.com/deploy?template=https://github.com/Shashank1324/clonebot" target="_blank">
+        <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
+  </a>
+</p>
+</details>
+<details>
+  <summary><b>Developer</b></summary>
+    <p align="left">
+        <img alt="GPL3" src ="https://c.tenor.com/10Zdx_RXqgcAAAAC/programming-crazy.gif" width="260px" style="max-width:100%;"/><br>
+            <a href="https://t.me/space4renjith"><img src="https://img.shields.io/badge/Renjith-Mangal-orange" height="24">
+        </a>&nbsp;
+            <a href="https://t.me/rmprojects"><img src="https://img.shields.io/badge/Updates-Channel-orange" height="24">
+        </a>
+</p>
+</details>
+<details>
+  <summary><b>Documentation</b></summary>
+    <p align="left">
+      <a href="https://telegra.ph/Clonebot-UI-Help-05-30">
+        <img src="https://img.shields.io/badge/Read-Documentation-blueviolet?style=for-the-badge&logo=telegraph">
+    </a>
+</p>
+</details>
+<details>
+  <summary><b>Support this project</b></summary>
+    <p align="left">
+    <b>Buy me a coffee for my work !</b><br><br>
+    <img src="https://telegra.ph/file/b926b7e8ea84826d81d8a.png" width="260px" style="max-width:100%;"/><br><br>
+      <a href="https://www.paypal.me/space4renjith" target="_blank">
+        <img src="https://img.shields.io/badge/Donate-Me-blueviolet?style=for-the-badge&logo=paypal">
+    </a>
+</p>
+</details>
+<details>
+  <summary><b>License</b></summary>
+    <p align="left">
+    <a href="https://choosealicense.com/licenses/gpl-3.0/">
+        <img src="https://img.shields.io/badge/License-GPLv3-blueviolet?style=for-the-badge&logo=gplv3">
+    </a>
+</p>
+</details>
+<details>
+  <summary><b>Credits</b></summary>
+    <p align="left">
+      <a href="https://github.com/pyrogram/pyrogram">
+        <img src="https://img.shields.io/badge/Pyrogram-MTProto%20API-orange?style=for-the-badge&logo=pyrogram">
+    </a>
+</p>
+</details>
 
->> [Versão em Português](README_ptbr.md)
+<p align="center">
+    <a href="https://t.me/space4renjith">
+        <img alt="GPL3" src ="https://telegra.ph/file/c4f778ccfc576a954dd20.gif" width="340" height="214"/>
+    </a>
+</p>
 
-## Settings
-- Run `update_libs.bat` file to update dependencies
-- Register your telegram API access credentials in the `credentials.py` file
 
-## USE
-
-### via command line
-
-Command: python clonechat.py --orig={chat_id of source channel/group} --dest=-{chat_id of destination channel/group}
-
-Example: python clonechat.py --orig=-100222222 --dest=-10011111111
-
-### Via menu in terminal
-
-- Run the `exec_clonechat.bat` file
-- Enter the chat_id of the originating channel/group
-- Confirm with [ENTER]
-- Enter the chat_id of the target channel/group
-- Confirm with [ENTER]
-
-### Finalization
-
-- Delete the `posted.json` file when done cloning.
-
-Note: If this file is not deleted, the next time you run the script the cloning will continue where it left off.
-
-## FAQ
-
-### How to get the chat_id of a channel or group
-
-There are several ways to get the chat_id of a channel. We will show two of them:
-- Using telegram client [Kotatogram](https://kotatogram.github.io/download/):
-  - Access the channel description screen
-  - Copy the `chat_id` that appears below the channel name
-- Using Find_TGIDbot bot:
-  - Access the bot window [@Find_TGIDbot](http://t.me/Find_TGIDbot) and launch it
-  - Forward any channel post to this bot
-  - The bot will reply with the message sender ID. In this case, the channel ID.
-- Copy the `chat_id` (including the minus sign). It is worth mentioning that channels start with the number '-100'.
-
-### How to generate telegram API access credentials?
-
-- View this video: https://www.youtube.com/watch?v=8naENmP3rg4
